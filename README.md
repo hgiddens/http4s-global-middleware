@@ -1,5 +1,7 @@
 ## http4s-global-middleware
 
+[![Build Status](https://api.travis-ci.org/hgiddens/http4s-global-middleware.svg)](https://travis-ci.org/hgiddens/http4s-global-middleware)
+
 A simple syntax extension to add middleware to all subsequently mounted routes.
 
 ### Usage
