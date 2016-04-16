@@ -2,7 +2,8 @@ package com.github.hgiddens.http4s.middleware.global
 
 import java.net.InetSocketAddress
 import java.util.concurrent.ExecutorService
-import org.http4s.server.{HttpMiddleware, HttpService, ServerBuilder}
+import org.http4s.HttpService
+import org.http4s.server.{HttpMiddleware, ServerBuilder}
 
 object Syntax {
   implicit class ServerBuilderExtensions(val builder: ServerBuilder) extends AnyVal {
