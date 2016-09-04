@@ -18,7 +18,7 @@ scalacOptions in ThisBuild ++= Seq(
 scalacOptions in Test in ThisBuild += "-Yrangepos"
 
 libraryDependencies ++= Seq(
-  "org.http4s" %% "http4s-server" % "0.13.2a"
+  "org.http4s" %% "http4s-server" % "0.14.5a"
 )
 
 autoAPIMappings in ThisBuild := true
